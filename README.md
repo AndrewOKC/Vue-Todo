@@ -1,5 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Vue Todo App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple todo application built with Vue 3 and TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Tech Stack
+
+- **Vue 3** - Progressive JavaScript framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **Pico CSS** - Minimal CSS framework
+
+## File Structure
+
+```
+.
+├── src/
+│   ├── App.vue              # Main application component
+│   ├── main.ts              # Application entry point
+│   ├── types.ts             # TypeScript type definitions
+│   └── components/
+│       ├── TodoForm.vue     # Form for adding todos
+│       └── TasksList.vue    # List display component
+├── vite.config.ts           # Vite configuration
+├── tsconfig.json            # TypeScript configuration
+└── package.json             # Project dependencies
+```
+
+## Credits
+
+This project was built following along with [this YouTube tutorial](https://youtu.be/5oKpoqmUj64?si=1pa19fFolmvJEcW1).
